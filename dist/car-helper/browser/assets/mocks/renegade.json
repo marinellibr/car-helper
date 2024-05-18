@@ -1,0 +1,67 @@
+{
+  "vehicle": "Jeep Renegade",
+  "licensePlate": "GGB-2C24",
+  "mileage": 106900,
+  "metrics": [
+    {
+      "title": "Brake Fluid",
+      "currentMileage": 13000,
+      "maxMileage": 20000,
+      "liked": true
+    },
+    {
+      "title": "Oil Change",
+      "currentMileage": 15000,
+      "maxMileage": 50000,
+      "liked": false
+    },
+    {
+      "title": "Tire Rotation",
+      "currentMileage": 20000,
+      "maxMileage": 50000,
+      "liked": true
+    },
+    {
+      "title": "Air Filter Replacement",
+      "currentMileage": 18000,
+      "maxMileage": 30000,
+      "liked": false
+    },
+    {
+      "title": "Spark Plug Replacement",
+      "currentMileage": 25000,
+      "maxMileage": 60000,
+      "liked": true
+    },
+    {
+      "title": "Engine Coolant Flush",
+      "currentMileage": 22000,
+      "maxMileage": 80000,
+      "liked": false
+    },
+    {
+      "title": "Transmission Fluid Change",
+      "currentMileage": 30000,
+      "maxMileage": 60000,
+      "liked": true
+    },
+    {
+      "title": "Power Steering Fluid Flush",
+      "currentMileage": 35000,
+      "maxMileage": 60000,
+      "liked": true
+    },
+    {
+      "title": "Wheel Alignment",
+      "currentMileage": 40000,
+      "maxMileage": 60000,
+      "liked": false
+    },
+    {
+      "title": "Cabin Air Filter Replacement",
+      "currentMileage": 28000,
+      "maxMileage": 50000,
+      "liked": true
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vehicle": "Porsche 911",
+  "licensePlate": "XXX-0X69",
+  "mileage": 9000,
+  "metrics": [
+    {
+      "title": "Brake Fluid",
+      "currentMileage": 15000,
+      "maxMileage": 25000,
+      "liked": false
+    },
+    {
+      "title": "Oil Change",
+      "currentMileage": 18000,
+      "maxMileage": 60000,
+      "liked": true
+    },
+    {
+      "title": "Tire Rotation",
+      "currentMileage": 22000,
+      "maxMileage": 55000,
+      "liked": false
+    },
+    {
+      "title": "Air Filter Replacement",
+      "currentMileage": 20000,
+      "maxMileage": 32000,
+      "liked": true
+    },
+    {
+      "title": "Spark Plug Replacement",
+      "currentMileage": 27000,
+      "maxMileage": 65000,
+      "liked": false
+    },
+    {
+      "title": "Engine Coolant Flush",
+      "currentMileage": 25000,
+      "maxMileage": 85000,
+      "liked": false
+    },
+    {
+      "title": "Transmission Fluid Change",
+      "currentMileage": 32000,
+      "maxMileage": 62000,
+      "liked": true
+    },
+    {
+      "title": "Power Steering Fluid Flush",
+      "currentMileage": 36000,
+      "maxMileage": 65000,
+      "liked": false
+    },
+    {
+      "title": "Wheel Alignment",
+      "currentMileage": 41000,
+      "maxMileage": 63000,
+      "liked": false
+    },
+    {
+      "title": "Cabin Air Filter Replacement",
+      "currentMileage": 30000,
+      "maxMileage": 55000,
+      "liked": false
+    }
+  ]
+}
