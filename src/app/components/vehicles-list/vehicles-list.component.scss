@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 32px;
+  .vehicle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid cadetblue;
+    width: 85%;
+    .info {
+    }
+    .pinned {
+      transform: rotateZ(45deg);
+    }
+  }
+}

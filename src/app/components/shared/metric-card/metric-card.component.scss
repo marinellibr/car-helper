@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .content {
+    padding: 2px;
+    border: 2px solid cadetblue;
+    width: 85%;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+    }
+    .progress-bar {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      .bar {
+        width: 95%;
+        height: 8px;
+        border-radius: 9999px;
+        background-color: lightgray;
+
+        .progress {
+          width: 0%;
+          height: 100%;
+          border-radius: 9999px;
+          background-color: cadetblue;
+        }
+      }
+      .status {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        .mileage {
+        }
+        .status-code {
+        }
+      }
+    }
+  }
+}

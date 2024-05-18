@@ -1,0 +1,33 @@
+form {
+  //   width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+
+  input {
+    height: 64px;
+    width: 240px;
+    border-radius: 8px;
+    border: 2px solid cadetblue;
+    background-color: white;
+    padding-left: 16px;
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    color: white;
+    height: 64px;
+    width: 256px;
+    border-radius: 8px;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+
+    &:disabled {
+      background-color: rgb(155, 197, 199);
+    }
+  }
+}

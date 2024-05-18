@@ -1,0 +1,21 @@
+.header {
+  width: calc(100vw - 16px);
+  height: 64px;
+  padding-inline: 8px;
+  background-color: cadetblue;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  img {
+    width: 32px;
+    aspect-ratio: 1;
+  }
+}

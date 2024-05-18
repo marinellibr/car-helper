@@ -1,0 +1,16 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  p {
+    color: white;
+    margin-left: 32px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+}

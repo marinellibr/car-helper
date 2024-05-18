@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="content">
+    <div class="header">
+      <h3>{{ metric.title }}</h3>
+      <img
+        *ngIf="!metric.liked"
+        src="../../../../assets/icons/pin-cadetblue.svg"
+        alt=""
+      />
+      <img
+        *ngIf="metric.liked"
+        src="../../../../assets/icons/pin.fill-cadetblue.svg"
+        alt=""
+      />
+    </div>
+    <div class="progress-bar">
+      <div class="bar">
+        <div class="progress" [ngStyle]="{ width: per + '%' }"></div>
+      </div>
+      <div class="status">
+        <p class="mileage">
+          {{ metric.currentMileage }}/{{ metric.maxMileage }} km
+        </p>
+        <p>({{ per | number : "1.0-1" }}%)</p>
+      </div>
+    </div>
+  </div>
+</div>

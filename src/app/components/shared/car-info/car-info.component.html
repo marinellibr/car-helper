@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="content">
+    <div class="car">
+      <h1>{{ selected.vehicle }}</h1>
+      <span>{{ selected.licensePlate }} - {{ selected.mileage }} km.</span>
+    </div>
+
+    <img
+      src="../../../../assets/icons/placeholder.svg"
+      alt=""
+      (click)="navigate('vehicles')"
+    />
+  </div>
+</div>

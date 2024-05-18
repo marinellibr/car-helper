@@ -1,0 +1,12 @@
+.metrics {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 8px;
+
+  app-metric-card {
+    width: 100%;
+  }
+}

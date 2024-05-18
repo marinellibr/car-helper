@@ -1,0 +1,23 @@
+<div class="header">
+  <img
+    (click)="toggleMenu()"
+    src="../../../../assets/icons/line.3.horizontal-white.svg"
+    alt=""
+  />
+  <p class="title" (click)="navigate('')">car helper</p>
+  <img
+    *ngIf="!menuWatcher"
+    (click)="navigate('vehicles')"
+    src="../../../../assets/icons/car.2.fill-white.svg"
+    alt=""
+  />
+  <img
+    *ngIf="menuWatcher"
+    (click)="toggleMenu()"
+    src="../../../../assets/icons/xmark-white.svg"
+    alt=""
+  />
+</div>
+
+<app-menu *ngIf="menuWatcher" (newMenuStatus)="toggleMenu()"></app-menu>
+<app-quick-update *ngIf="!menuWatcher"></app-quick-update>

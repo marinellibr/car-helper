@@ -1,0 +1,67 @@
+{
+  "vehicle": "Audi RS6",
+  "licensePlate": "GAB-1V23",
+  "mileage": 23000,
+  "metrics": [
+    {
+      "title": "Brake Fluid",
+      "currentMileage": 16000,
+      "maxMileage": 27000,
+      "liked": false
+    },
+    {
+      "title": "Oil Change",
+      "currentMileage": 19000,
+      "maxMileage": 62000,
+      "liked": true
+    },
+    {
+      "title": "Tire Rotation",
+      "currentMileage": 23000,
+      "maxMileage": 57000,
+      "liked": false
+    },
+    {
+      "title": "Air Filter Replacement",
+      "currentMileage": 21000,
+      "maxMileage": 34000,
+      "liked": true
+    },
+    {
+      "title": "Spark Plug Replacement",
+      "currentMileage": 28000,
+      "maxMileage": 67000,
+      "liked": false
+    },
+    {
+      "title": "Engine Coolant Flush",
+      "currentMileage": 26000,
+      "maxMileage": 88000,
+      "liked": true
+    },
+    {
+      "title": "Transmission Fluid Change",
+      "currentMileage": 33000,
+      "maxMileage": 64000,
+      "liked": false
+    },
+    {
+      "title": "Power Steering Fluid Flush",
+      "currentMileage": 37000,
+      "maxMileage": 68000,
+      "liked": true
+    },
+    {
+      "title": "Wheel Alignment",
+      "currentMileage": 42000,
+      "maxMileage": 65000,
+      "liked": false
+    },
+    {
+      "title": "Cabin Air Filter Replacement",
+      "currentMileage": 31000,
+      "maxMileage": 57000,
+      "liked": true
+    }
+  ]
+}

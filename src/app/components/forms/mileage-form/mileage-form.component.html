@@ -1,0 +1,13 @@
+<app-car-info></app-car-info>
+<form>
+  <input
+    type="number"
+    name="mileage"
+    id="mileage"
+    placeholder="New Mileage"
+    [(ngModel)]="mileage"
+  />
+  <button (click)="update()" [disabled]="mileage === vehicle.mileage">
+    update.
+  </button>
+</form>
